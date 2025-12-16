@@ -1,3 +1,8 @@
 .rotating-animation {
-    animation: rotate-fast 1.5s ease-in-out infinite;
+    display: inline-block;
+    animation: gentle-rotation 2s ease-in-out infinite;
+}
+
+@keyframes gentle-rotation { 
+    0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } 
 }
