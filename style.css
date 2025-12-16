@@ -6,3 +6,11 @@
 @keyframes gentle-rotation { 
     0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } 
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(236, 200, 165);
+}
