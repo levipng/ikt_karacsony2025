@@ -12,5 +12,8 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(236, 200, 165);
+}
+
+body{
+        background-color: rgb(236, 200, 165);
 }
