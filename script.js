@@ -1,3 +1,3 @@
 function menyi() {
-    document.getElementById("oraI").innerText = new Date().toLocaleTimeString('hu-HU');
+    document.getElementById("vanmeg").innerText = new Date().toLocaleTimeString('hu-HU');
 }
