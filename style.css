@@ -3,11 +3,19 @@
     animation: gentle-rotation 2s ease-in-out infinite;
 }
 
-@keyframes gentle-rotation { 
-    0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } 
+@keyframes gentle-rotation {
+
+    0%,
+    100% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +23,8 @@ main{
     flex-direction: column;
 }
 
-body{
-        background-color: rgb(236, 200, 165);
+body {
+    background-color: rgb(236, 200, 165);
 }
 
 
@@ -62,12 +70,12 @@ body{
     .countdown {
         gap: 10px;
     }
-    
+
     .time-unit {
         min-width: 80px;
         padding: 10px;
     }
-    
+
     .time-unit .number {
         font-size: 2rem;
     }
