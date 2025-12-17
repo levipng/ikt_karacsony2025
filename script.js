@@ -34,7 +34,6 @@ function karacsonyigSzamol() {
                 <span class="label">Másodperc</span>
             </div>
         </div>
-        <h1>Kellemes ünnepeket!</h1>
     `;
 }
 
