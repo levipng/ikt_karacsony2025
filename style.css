@@ -24,6 +24,10 @@ main {
     font-size: 3rem;
 }
 
+h1{
+    font-size: 3rem;
+}
+
 body {
     background-color: rgb(236, 200, 165);
     font-size: 3rem;
@@ -55,7 +59,7 @@ body {
 }
 
 .time-unit .label {
-    font-size: 2rem;
+    font-size: 3rem;
     display: block;
     margin-top: 5px;
 }
